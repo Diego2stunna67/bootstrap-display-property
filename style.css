@@ -1,0 +1,18 @@
+.md-visable{
+    visibility: hidden;
+}
+/* THIS IS MEDIUM SCREEN */
+@media (min-width: 768px) {
+    .md-visable{
+        visibility: visible;
+        color: red;
+    }
+}
+
+/* THIS IS XLARGE SCREEN */
+@media (min-width: 1200px) {
+    .xl-visable{
+        visibility: visible;
+        color: royalblue;
+    }
+}
